@@ -1,4 +1,4 @@
-var roleHarvester = require("role.harvester");
+var roleBuilder = require("role.builder");
 
 
 module.exports = {
@@ -34,7 +34,7 @@ module.exports = {
 	        }
 	        else
 	        {
-	            roleHarvester.run(creep);
+	            roleBuilder.run(creep);
 	        }
 	   }
 	}

@@ -1,2 +1,2 @@
 # screeps
-Screeps game scrips
+Screeps game scripts

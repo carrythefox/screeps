@@ -10,7 +10,7 @@ Game.spawns["Spawn1"].memory.roles = [0,8,1,0,2]
 module.exports.loop = function () {
     
     var spawn = Game.spawns["Spawn1"]
-    if((spawn.memory.queue.length == 0 || spawn.memory.queue == undefined) && spawn.canCreateCreep() !== ERR_BUSY)
+    if((spawn.memory.queue == undefined || spawn.memory.queue.length == 0) && spawn.canCreateCreep() !== ERR_BUSY)
     {
         spawn.updateQueue();
     }

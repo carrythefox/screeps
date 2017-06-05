@@ -1,0 +1,5 @@
+global.TASK_FINISHED = 0;
+global.TASK_SUCCESSFUL = 0;
+global.TASK_FAILED = -1;
+global.TASK_IN_PROGRESS = -2;
+global.TASK_INVLAID_TARGET = -3;
